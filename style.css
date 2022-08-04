@@ -1,3 +1,8 @@
 html {
     font-family: 'Roboto Condensed', sans-serif;
 }
+
+.header {
+    background-color: #1F2937;
+    color: white;
+}
