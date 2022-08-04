@@ -9,6 +9,8 @@ html {
 
 .navbar {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 ul {
