@@ -6,3 +6,12 @@ html {
     background-color: #1F2937;
     color: white;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: rgb(168, 167, 167);
+    text-decoration: none;
+}
