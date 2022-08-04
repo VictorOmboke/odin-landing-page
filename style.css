@@ -7,11 +7,20 @@ html {
     color: white;
 }
 
+.navbar {
+    display: flex;
+}
+
 ul {
     list-style: none;
 }
 
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
 a {
-    color: rgb(168, 167, 167);
+    color: #a8a7a7;
     text-decoration: none;
 }
