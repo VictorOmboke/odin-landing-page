@@ -6,6 +6,29 @@ body {
     flex-direction: column;
 }
 
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    font-size: 13px;
+    color: #a8a7a7;
+    text-decoration: none;
+}
+
+button {
+    color: white;
+    background-color: #0059ff;
+    padding: 5px 15px;
+    border-style: none;
+    border-radius: 5px;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
@@ -38,7 +61,6 @@ body {
 
 .header-img {
     max-width: 400px;
-    max-height: 250px;
     border-radius: 10px;
 }
 
@@ -57,29 +79,4 @@ body {
     font-size: 13px;
     font-weight: 100;
     margin: 5px 0;
-}
-
-
-
-ul {
-    list-style: none;
-}
-
-li {
-    display: inline;
-    margin-right: 10px;
-}
-
-a {
-    font-size: 13px;
-    color: #a8a7a7;
-    text-decoration: none;
-}
-
-button {
-    color: white;
-    background-color: #0059ff;
-    padding: 5px 15px;
-    border-style: none;
-    border-radius: 5px;
 }
