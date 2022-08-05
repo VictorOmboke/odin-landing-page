@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -26,6 +28,9 @@ body {
     align-items: center;
 }
 
+.info {
+    max-width: 350px;
+}
 
 .info div {
     font-size: 48px;
