@@ -64,3 +64,11 @@ a {
     color: #a8a7a7;
     text-decoration: none;
 }
+
+button {
+    color: white;
+    background-color: #0059ff;
+    padding: 5px 15px;
+    border-style: none;
+    border-radius: 5px;
+}
