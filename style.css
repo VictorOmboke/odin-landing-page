@@ -1,4 +1,4 @@
-html {
+body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -8,22 +8,41 @@ html {
 }
 
 .navbar {
-    padding: 0 100px;
+    padding: 0px 100px 50px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .navbar div {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .header-info {
-    padding: 0 100px;
+    padding: 0 100px 75px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+
+.info div {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.info p {
+    color: #a8a7a7;
+    font-size: 13px;
+    font-weight: 100;
+    margin: 5px 0;
+}
+
+.header-img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 10px;
 }
 
 ul {
@@ -39,8 +58,4 @@ a {
     font-size: 13px;
     color: #a8a7a7;
     text-decoration: none;
-}
-
-.header-img {
-    max-width: 400px;
 }
