@@ -34,16 +34,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.header-img {
+    max-width: 400px;
+    max-height: 250px;
+    border-radius: 10px;
 }
 
 .info {
-    max-width: 400px;
+    max-width: 350px;
 }
 
-.info div {
+.info h1 {
     font-size: 48px;
     font-weight: bold;
+    margin: 0;
 }
 
 .info p {
@@ -53,11 +59,7 @@ body {
     margin: 5px 0;
 }
 
-.header-img {
-    max-width: 350px;
-    height: auto;
-    border-radius: 10px;
-}
+
 
 ul {
     list-style: none;
