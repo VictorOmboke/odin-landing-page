@@ -29,6 +29,10 @@ button {
     border-radius: 5px;
 }
 
+.body-info img {
+    max-width: 150px;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
