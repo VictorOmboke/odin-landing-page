@@ -29,8 +29,9 @@ button {
     border-radius: 5px;
 }
 
-.body-info img {
-    max-width: 150px;
+h2 {
+    text-align: center;
+    margin: 35px 0;
 }
 
 .header {
@@ -83,4 +84,21 @@ button {
     font-size: 13px;
     font-weight: 100;
     margin: 5px 0;
+}
+
+.body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.body-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-info img {
+    max-width: 150px;
+    border-radius: 5px;
 }
