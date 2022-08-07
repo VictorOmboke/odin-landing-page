@@ -34,6 +34,10 @@ h2 {
     margin: 35px 0;
 }
 
+h3 {
+    margin: 0;
+}
+
 .header {
     background-color: #1F2937;
     color: white;
@@ -139,5 +143,31 @@ h2 {
 }
 
 .quote p {
-    margin: 0;
+    margin: 0 0 15px 0;
+}
+
+.container-sign-up {
+    padding: 85px;
+}
+
+.body-sign-up {
+    max-width: 1000px;
+    padding: 30px 50px;
+    margin: 0 auto;
+    background-color: #0059ff;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.sign-up div {
+    font-size: 13px;
 }
