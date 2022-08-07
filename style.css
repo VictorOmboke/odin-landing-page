@@ -93,12 +93,26 @@ h2 {
 }
 
 .body-info {
+    margin-bottom: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 25px;
 }
 
 .body-info img {
     max-width: 150px;
     border-radius: 5px;
+}
+
+.body-info .info {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    word-wrap: break-word;
 }
