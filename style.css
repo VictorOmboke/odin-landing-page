@@ -171,3 +171,13 @@ h3 {
 .sign-up div {
     font-size: 13px;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    font-size: 13px;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
